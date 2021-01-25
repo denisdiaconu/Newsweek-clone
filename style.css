@@ -193,6 +193,7 @@ footer {
 .copyright {
   font-size: 13px;
   color: #666;
+  margin: auto;
 }
 
 .nav_top2 > a > i {
