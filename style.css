@@ -392,6 +392,10 @@ footer {
   display: none;
 }
 
+.special_rec {
+  margin-top: 30px;
+}
+
 /* media querry */
 
 @media (min-width: 768px) {
