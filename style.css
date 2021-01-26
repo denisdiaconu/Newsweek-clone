@@ -42,14 +42,48 @@ a {
   font-size: 15px;
 }
 
-.nav_bar_mid {
-  width: 100%;
-  height: 54px;
+h4 > a {
+  font-weight: bold;
+  color: #a0a0a0;
+  font-size: 20px;
+}
+
+h6 > a {
+  font-weight: bold;
+  color: black;
+  font-size: 24px;
+}
+
+h5 > a {
+  color: black;
+  font-weight: bold;
 }
 
 .nav_bot1 > a {
   font-size: 14px;
   color: #666;
+}
+
+h5 > a:hover {
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid red;
+}
+
+.nav_bar_mid {
+  width: 100%;
+  height: 54px;
+}
+
+h4 > a:hover {
+  color: #a0a0a0;
+  text-decoration: none;
+}
+
+h6 > a:hover {
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid red;
 }
 
 .nav_bar_mid > li {
@@ -172,7 +206,7 @@ a {
 main {
   background-color: #f4f5f6;
   height: auto;
-  height: auto;
+  margin-top: 20px;
 }
 
 .section_cont {
@@ -183,7 +217,11 @@ main {
   row-gap: 15px;
 }
 
-#background1 {
+.topstory {
+  row-gap: 15px;
+}
+
+.background1 {
   background-image: url(https://web.archive.org/web/20210120125445im_/https://d.newsweek.com/en/full/1711616/donald-trump.webp?w=397&amp;h=265&amp;q=90&amp;f=d759057143d283aa0ea0ed13fba5450a);
   background-size: cover;
   background-position: center;
@@ -191,15 +229,99 @@ main {
   height: 250px;
 }
 
-#background1 > p {
+.background1 > p {
   margin-bottom: 0;
   padding: 5px 15px 6px;
   background-color: rgba(255, 255, 255, 0.9);
+  font-weight: bold;
+  font-size: large;
+  color: red;
+}
+
+.background2 {
+  background-image: url(https://web.archive.org/web/20210120125445im_/https://d.newsweek.com/en/full/1711649/biden-speaks-delaware.webp?w=591&h=364&f=400256ef3c52b699d57e5db01061d213);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 350px;
+}
+
+.background2 > p {
+  margin-bottom: 0;
+  padding: 5px 15px 6px;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-weight: bold;
+  font-size: large;
+  color: red;
+}
+
+.section2 {
+  row-gap: 25px;
 }
 
 .section2_under {
   margin-top: 10px;
   row-gap: 5px;
+}
+
+.small_img {
+  width: 100%;
+}
+
+.img_litle {
+  width: 95px;
+  height: 95px;
+}
+
+#part1 > div {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+#part2 > div {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+.text_div {
+  column-gap: 20px;
+}
+
+#line {
+  height: 3px;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.debate_cont {
+  row-gap: 20px;
+}
+
+.col3_title {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.col3_text {
+  font-weight: bold;
+  color: #555;
+}
+
+.small_icon {
+  width: 63px;
+  height: 63px;
+}
+
+.col2_title {
+  color: #818181;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.col2_title:hover {
+  text-decoration: none;
+  color: #818181;
 }
 
 /* phone footer */
@@ -289,24 +411,18 @@ footer {
     margin-top: 10px;
   }
 
+  .section3 > div {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
   #phone_cont > div > button {
     width: 120px;
   }
 
   #phone_cont > div > i {
     font-size: 30px;
-  }
-
-  .section1 {
-    order: 2;
-  }
-
-  .section2 {
-    order: 1;
-  }
-
-  .section3 {
-    order: 3;
   }
 }
 
@@ -320,6 +436,7 @@ footer {
     right: 0;
     margin: auto;
   }
+
   main {
     margin-top: 194px;
   }
