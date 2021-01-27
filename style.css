@@ -8,6 +8,10 @@ html {
   overflow-x: hidden;
 }
 
+ul {
+  list-style: none;
+}
+
 body {
   background-color: #f4f5f6;
   display: grid;
@@ -106,7 +110,7 @@ h6 > a:hover {
 
 #border_red {
   border-top: 20px solid red;
-  border-left: 20px solid white;
+  border-left: 20px solid #f4f5f6;
 }
 
 .last_nav {
@@ -322,6 +326,128 @@ main {
 .col2_title:hover {
   text-decoration: none;
   color: #818181;
+}
+
+.list_3 > li {
+  padding: 10px 0 10px 0;
+}
+
+/* magazin part */
+
+.image_mag {
+  background-image: url(https://d.newsweek.com/en/full/1704591/cover-january-22-2021.webp?w=290&h=387&q=90&f=2a6659a3d39362991dce870c3c982d89);
+  background-position: center;
+  background-size: cover;
+  height: 90%;
+  align-content: flex-end;
+}
+
+#magazin_cont {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-row-gap: 50px;
+  grid-column-gap: 25px;
+}
+
+.test {
+  align-items: flex-end;
+  margin-top: 20px;
+}
+
+#magazin_cont > div > div {
+  gap: 10px;
+  padding: 15px 0 0 0;
+}
+
+#magazin_cont > div > div > h3 {
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  padding: 4px;
+  background-color: #f72210;
+}
+
+#magazin_cont > div > div > h4 {
+  font-size: 23px;
+  padding: 4px;
+  color: #f72210;
+}
+
+.image_mag > h5 {
+  margin-bottom: 0;
+  padding: 5px 15px 6px;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-weight: bold;
+  font-size: large;
+  color: red;
+}
+
+#editor_cont {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-row-gap: 50px;
+  grid-column-gap: 25px;
+}
+
+#editor_cont > div > div {
+  gap: 10px;
+  padding: 15px 0 0 0;
+}
+
+#editor_cont > div > div > h3 {
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  padding: 4px;
+  background-color: #f72210;
+}
+
+#magazin_editor > div > div > h4 {
+  font-size: 23px;
+  padding: 4px;
+  color: #f72210;
+}
+
+.cont_editor {
+  background-image: url(https://web.archive.org/web/20210120125445im_/https://d.newsweek.com/en/full/1711224/israel-tanks-border-syria-golan.webp?w=397&h=265&f=7808a219e546114ab901f153186bd843);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  align-items: flex-end;
+}
+
+.cont_editor > h5 {
+  margin-bottom: 0;
+  padding: 5px 15px 6px;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-weight: bold;
+  font-size: large;
+  color: red;
+}
+
+.title_com {
+  font-size: 23px;
+  padding: 4px;
+  color: #f72210;
+  font-weight: bold;
+}
+
+.section_ug {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.bottom_img {
+  width: 100%;
+}
+
+.img_pos {
+  width: 110px;
+  height: 110px;
+}
+
+ul > li {
+  column-gap: 10px;
 }
 
 /* phone footer */
