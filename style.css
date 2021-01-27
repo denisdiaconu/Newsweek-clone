@@ -563,6 +563,10 @@ footer {
     display: none;
   }
 
+  body {
+    display: grid;
+  }
+
   #hide {
     display: inline;
     font-weight: bold;
