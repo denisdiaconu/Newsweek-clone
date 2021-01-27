@@ -613,6 +613,13 @@ footer {
   #phone_cont > div > i {
     font-size: 30px;
   }
+
+  #phone_navbar {
+    margin: -50px auto;
+    position: sticky;
+    top: 0%;
+    z-index: 3;
+  }
 }
 
 @media (min-width: 992px) {
