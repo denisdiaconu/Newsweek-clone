@@ -381,7 +381,7 @@ main {
   color: red;
 }
 
-#editor_cont {
+.editor_cont {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-row-gap: 50px;
@@ -567,6 +567,10 @@ footer {
     display: grid;
   }
 
+  .editor_cont {
+    grid-template-columns: 1fr 1fr;
+  }
+
   #hide {
     display: inline;
     font-weight: bold;
@@ -610,5 +614,13 @@ footer {
     position: sticky;
     top: 0%;
     z-index: 3;
+  }
+
+  .first_form {
+    
+  }
+
+  .editor_cont {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
