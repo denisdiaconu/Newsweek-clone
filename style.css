@@ -127,7 +127,6 @@ h6 > a:hover {
 
 .search_part {
   gap: 10px;
-  align-items: center;
 }
 
 #border_red {
@@ -160,7 +159,6 @@ h6 > a:hover {
 .title_sec {
   background-color: #f61602;
   font-size: 20px;
-  font-weight: bold;
   color: white;
   padding: 5px 8px 5px 8px;
 }
@@ -168,7 +166,6 @@ h6 > a:hover {
 .editor_title {
   padding: 5px;
   font-size: 20px;
-  font-weight: bold;
 }
 
 .in_images {
@@ -179,7 +176,6 @@ h6 > a:hover {
 .title_form {
   background-color: #f72210;
   padding: 5px 9px 5px 9px;
-  font-weight: bold;
   color: white;
 }
 
@@ -226,8 +222,6 @@ h6 > a:hover {
 #phone_navbar {
   background-color: #f72210;
   width: 100%;
-  flex-direction: row;
-  justify-content: center;
   height: 50px;
   position: sticky;
   top: 0;
@@ -235,9 +229,6 @@ h6 > a:hover {
 }
 
 #phone_cont {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   width: 95%;
 }
 
@@ -281,10 +272,6 @@ h6 > a:hover {
 #menu {
   color: #fb9b93;
   font-size: larger;
-}
-
-#nav_bar_desktop {
-  display: none;
 }
 
 /* phone main */
@@ -411,7 +398,6 @@ main {
   background-position: center;
   background-size: cover;
   height: 400px;
-  align-content: flex-end;
 }
 
 .magazin_cont {
@@ -511,7 +497,6 @@ main {
 .image_sov {
   margin-left: 80px;
   margin-top: 20px;
-  position: relative;
 }
 
 .sub {
@@ -541,8 +526,6 @@ main {
 }
 
 .forms {
-  display: flex;
-  flex-direction: column;
   row-gap: 10px;
 }
 
@@ -630,8 +613,6 @@ footer {
 
 .border_top {
   border-top: 1px solid #d9d9d9;
-  display: flex;
-  flex-direction: column;
 }
 
 #nav_hide {
@@ -744,7 +725,6 @@ footer {
 
 @media (min-width: 992px) {
   #nav_hide {
-    display: block;
     position: absolute;
     top: 0;
     left: 0;
