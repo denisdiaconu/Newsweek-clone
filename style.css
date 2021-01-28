@@ -86,6 +86,23 @@ h5 > a {
   color: #666;
 }
 
+li > a:hover {
+  transform: rotate(360deg);
+  padding: 10px;
+  background-color: #f72210;
+  border-radius: 20%;
+  transition: padding 2s, background-color 20s, transform 3s;
+  font-size: larger;
+}
+
+button:hover {
+  transform: rotate(360deg);
+  padding: 10px;
+  background-color: white;
+  color: #f72210;
+  transition: padding 2s, color 5s, background-color 20s, transform 3s;
+}
+
 h5 > a:hover {
   color: black;
   text-decoration: none;
