@@ -50,6 +50,10 @@ img:hover {
   font-size: 15px;
 }
 
+#go_right {
+  margin-left: 15px;
+}
+
 h4 > a {
   font-weight: bold;
   color: #a0a0a0;
