@@ -405,6 +405,7 @@ main {
   grid-template-columns: 1fr;
   grid-row-gap: 50px;
   grid-column-gap: 25px;
+  padding-top: 20px;
 }
 
 .test {
@@ -440,6 +441,7 @@ main {
   grid-template-columns: 1fr;
   grid-row-gap: 50px;
   grid-column-gap: 25px;
+  padding-top: 20px;
 }
 
 .editor_cont > div > div > h3 {
@@ -631,6 +633,38 @@ footer {
   display: initial;
 }
 
+.news_letter {
+  height: 90%;
+}
+
+.sub_button_bot {
+  background-color: red;
+}
+
+.sec_subnew {
+  padding-top: 40px;
+}
+
+.editor_tit {
+  padding: 30px 0 10px 0;
+}
+
+.magazin_fet {
+  background-color: #f4f5f6;
+}
+
+.magazine_tit {
+  padding: 30px 0 10px 0;
+}
+
+.spec_button {
+  background-color: #f61602;
+}
+
+.sub_cont_sp {
+  padding-top: 40px;
+}
+
 /* media querry */
 
 @media (min-width: 768px) {
@@ -675,6 +709,7 @@ footer {
   .first_form {
     width: 45%;
     margin: auto;
+    background-color: #f4f5f6;
   }
 
   body {
