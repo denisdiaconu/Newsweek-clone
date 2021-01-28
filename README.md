@@ -2,7 +2,7 @@
 
 # News week clone project
 
-![screenshot](path here)
+![screenshot](./screenshot.png)
 
 Clone of the News week website page using bootstrap.
 

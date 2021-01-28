@@ -173,6 +173,7 @@ h6 > a:hover {
   height: 50px;
   position: sticky;
   top: 0;
+  z-index: 3;
 }
 
 #phone_cont {
@@ -489,6 +490,10 @@ footer {
   background-color: white;
 }
 
+.nav_top1 {
+  flex-direction: column;
+}
+
 .nav_top {
   margin-bottom: 20px;
 }
@@ -572,6 +577,11 @@ footer {
     display: inline;
   }
 
+  .nav_top1 {
+    flex-direction: row;
+    column-gap: 20px;
+  }
+
   .hide_phone {
     display: none;
   }
@@ -582,6 +592,10 @@ footer {
 
   body {
     display: grid;
+  }
+
+  main {
+    margin-top: 53px;
   }
 
   .magazin_cont {
