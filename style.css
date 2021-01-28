@@ -64,6 +64,7 @@ h6 > a {
 h5 > a {
   color: black;
   font-weight: bold;
+  font-size: 17px;
 }
 
 .nav_bot1 > a {
@@ -157,8 +158,9 @@ h6 > a:hover {
   font-weight: bold;
 }
 
-.subscribe_button {
-
+.in_images {
+  background-image: url(https://d.newsweek.com/en/full/1701186/ph3095-01.jpg?w=500&h=333&f=b8162daf93e087918df15d58a79bfc35);
+  height: 200px;
 }
 
 .title_form {
@@ -227,12 +229,12 @@ h6 > a:hover {
   width: 95%;
 }
 
-.part1 > div {
+.part1 > article {
   border-top: 1px solid #ddd;
   padding-top: 10px;
 }
 
-.part2 > div {
+.part2 > article {
   border-top: 1px solid #ddd;
   padding-top: 10px;
 }
@@ -308,6 +310,15 @@ main {
   font-weight: bold;
   font-size: large;
   color: red;
+}
+
+.in_images > a {
+  margin-bottom: 0;
+  padding: 5px 15px 6px;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-weight: bold;
+  font-size: large;
+  color: #3581f4;
 }
 
 .background2 {
@@ -413,7 +424,7 @@ main {
 }
 
 .magazin_cont > div > div > h3 {
-  font-size: 23px;
+  font-size: 19px;
   font-weight: bold;
   color: white;
   padding: 4px;
@@ -421,7 +432,7 @@ main {
 }
 
 .magazin_cont > div > div > h4 {
-  font-size: 23px;
+  font-size: 19px;
   padding: 4px;
   color: #f72210;
 }
@@ -571,12 +582,18 @@ footer {
 
 .nav_top2 {
   column-gap: 15px;
+  margin-top: 12px;
+}
+
+img:hover {
+  cursor: pointer;
 }
 
 .copyright {
   font-size: 13px;
   color: #666;
   margin: auto;
+  margin-top: 12px;
 }
 
 .nav_top2 > a > i {
@@ -657,6 +674,10 @@ footer {
     margin: auto;
   }
 
+  .gap_nedd {
+    margin-top: 20px;
+  }
+
   .nav_top1 {
     flex-direction: row;
     column-gap: 20px;
@@ -699,7 +720,7 @@ footer {
     margin-top: 10px;
   }
 
-  .section3 > div {
+  .section3 > article {
     border-top: 1px solid #ddd;
     padding-top: 20px;
     padding-bottom: 20px;
