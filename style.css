@@ -14,8 +14,6 @@ ul {
 
 body {
   background-color: #f4f5f6;
-  height: auto;
-  margin: auto;
 }
 
 a {
@@ -27,7 +25,10 @@ a {
 .top_nav {
   background-color: #f72210;
   height: 95px;
-  align-items: flex-end;
+}
+
+img:hover {
+  cursor: pointer;
 }
 
 .top_nav > div > img {
@@ -65,6 +66,15 @@ h5 > a {
   color: black;
   font-weight: bold;
   font-size: 17px;
+}
+
+.in_images > a {
+  margin-bottom: 0;
+  padding: 5px 15px 6px;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-weight: bold;
+  font-size: large;
+  color: #3581f4;
 }
 
 .nav_bot1 > a {
@@ -124,7 +134,6 @@ h6 > a:hover {
 .last_nav {
   height: 46px;
   width: 100%;
-  display: flex;
   border-top: 1px solid #f4f5f7;
   border-bottom: 1px solid #f4f5f7;
 }
@@ -213,7 +222,6 @@ h6 > a:hover {
 #phone_navbar {
   background-color: #f72210;
   width: 100%;
-  display: flex;
   flex-direction: row;
   justify-content: center;
   height: 50px;
@@ -310,15 +318,6 @@ main {
   font-weight: bold;
   font-size: large;
   color: red;
-}
-
-.in_images > a {
-  margin-bottom: 0;
-  padding: 5px 15px 6px;
-  background-color: rgba(255, 255, 255, 0.9);
-  font-weight: bold;
-  font-size: large;
-  color: #3581f4;
 }
 
 .background2 {
@@ -545,6 +544,7 @@ main {
 
 .img_sub {
   background-position: center;
+  background-size: cover;
 }
 
 .div_te {
@@ -583,10 +583,6 @@ footer {
 .nav_top2 {
   column-gap: 15px;
   margin-top: 12px;
-}
-
-img:hover {
-  cursor: pointer;
 }
 
 .copyright {
