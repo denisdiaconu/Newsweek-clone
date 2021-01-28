@@ -40,6 +40,10 @@ a {
   margin-bottom: 10px;
 }
 
+.top_mar {
+  margin-right: 20px;
+}
+
 .top_nav > p {
   color: white;
   font-size: 15px;
@@ -122,6 +126,46 @@ h6 > a:hover {
   display: flex;
   border-top: 1px solid #f4f5f7;
   border-bottom: 1px solid #f4f5f7;
+}
+
+.first_button {
+  font-size: 12px;
+  height: 25px;
+  border-radius: 24px;
+  background-color: #ffe400;
+}
+
+.div_gap1 {
+  column-gap: 20px;
+}
+
+.div_gap2 {
+  column-gap: 20px;
+}
+
+.title_sec {
+  background-color: #f61602;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  padding: 5px 8px 5px 8px;
+}
+
+.editor_title {
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.subscribe_button {
+
+}
+
+.title_form {
+  background-color: #f72210;
+  padding: 5px 9px 5px 9px;
+  font-weight: bold;
+  color: white;
 }
 
 .nav_bar_bot {
@@ -352,7 +396,7 @@ main {
   background-image: url(https://d.newsweek.com/en/full/1704591/cover-january-22-2021.webp?w=290&h=387&q=90&f=2a6659a3d39362991dce870c3c982d89);
   background-position: center;
   background-size: cover;
-  height: 90%;
+  height: 400px;
   align-content: flex-end;
 }
 
@@ -430,7 +474,7 @@ main {
 }
 
 .title_com {
-  font-size: 23px;
+  font-size: 18px;
   padding: 4px;
   color: #f72210;
   font-weight: bold;
@@ -468,6 +512,16 @@ main {
   height: 35px;
 }
 
+.first_form {
+  width: 70%;
+  margin: auto;
+}
+
+.form_in {
+  width: 90%;
+  margin: auto;
+}
+
 .forms > button {
   background-color: #f61602;
 }
@@ -480,6 +534,19 @@ main {
 
 .img_sub {
   background-position: center;
+}
+
+.div_te {
+  margin-left: 20%;
+}
+
+.div_te2 {
+  margin-top: 180px;
+  z-index: 2;
+}
+
+.test3 {
+  row-gap: 30px;
 }
 
 /* phone footer */
@@ -577,6 +644,19 @@ footer {
     display: inline;
   }
 
+  .image_mag {
+    height: 90%;
+  }
+
+  .cont_editor {
+    height: 250px;
+  }
+
+  .form_in {
+    width: 45%;
+    margin: auto;
+  }
+
   .nav_top1 {
     flex-direction: row;
     column-gap: 20px;
@@ -588,6 +668,11 @@ footer {
 
   #user {
     display: none;
+  }
+
+  .first_form {
+    width: 45%;
+    margin: auto;
   }
 
   body {
@@ -645,6 +730,20 @@ footer {
     z-index: 5;
     right: 0;
     margin: auto;
+  }
+
+  .cont_editor {
+    height: 200px;
+  }
+
+  .first_form {
+    width: unset;
+    margin: unset;
+  }
+
+  .form_in {
+    width: unset;
+    margin: unset;
   }
 
   main {
