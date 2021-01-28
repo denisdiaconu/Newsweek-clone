@@ -4,13 +4,13 @@
 
 ![screenshot](./screenshot.png)
 
-Clone of the News week website page using bootstrap.
+Clone of the Newsweek website page using bootstrap.
 
 ## Built With
 
 - HTML5
 - CSS
-- bootstrap
+- Bootstrap
 - Media querry
 
 
@@ -30,7 +30,7 @@ HEAD TO
 -  HTML Semantic elements
 -  CSS flex property
 -- CSS grid property
--  bootstrap
+-  Bootstrap
 -  Media querry
 
 
@@ -47,10 +47,6 @@ HEAD TO
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 - Clone this repository with git clone```https://github.com/denisdiaconu/TNW-Project.git`` using your terminal or command line.
